@@ -85,3 +85,25 @@ Four concurrent dedicated agent conversations were executed in parallel using th
 
 - **Classification:** `TIER 2: EMPIRICALLY_VERIFIED`
 - **Reproducibility:** 100% deterministic local tool execution via REA v6.5.0 on Node.js v26.3.1. All file paths, hashes, and symbol offsets authenticated against live host storage.
+
+---
+
+## 4. Upstream Integration & Production Deployments
+
+The empirical discoveries from EXP-REA-001 have been upstreamed into production across the ecosystem:
+
+### 4.1 Fleet-Orchestrator Headless Runtime Hardening (Phase 9)
+- **Pull Request & Commit Anchor:** PR [#183](https://github.com/AaradhyaDT/Fleet-Orchestrator/pull/183), Squash Commit [`5fa7f78`](https://github.com/AaradhyaDT/Fleet-Orchestrator/commit/5fa7f78cbbd25c3ae81c5d5e227976e5d8a9dfaa), Skill Hardening Commit [`1219c19`](https://github.com/AaradhyaDT/Fleet-Orchestrator/commit/1219c19)
+- **Issue Anchor:** Issue [#182](https://github.com/AaradhyaDT/Fleet-Orchestrator/issues/182)
+- **CI Matrix Proof:** GitHub Actions Run `39090074501` (100% pass across 9/9 matrix jobs: Ubuntu & Windows, Python 3.11, 3.12, 3.13)
+- **Production Implemented Capabilities:**
+  1. **Subprocess Isolation Switches:** `CopilotCLIAdapter` enforces `--disallow-temp-dir`, `--headless`, `COPILOT_ALLOW_ALL=true`, `COPILOT_FORCE_WINDOWS_HIDE=1`, and `COPILOT_DEBUG_SKIP_LAUNCH_CHECKS=1`.
+  2. **Direct SQLite Session Telemetry:** Implemented `extract_sqlite_session_telemetry()` reading authentic token usage, duration, and cost directly from `session-state.db` without depending on ephemeral `usage.json` dumps. Integrated with `tools/harvest_copilot_counter_dataset.py` via `harvest_from_session_stores()`.
+  3. **Discrete Rate-Limit Classification:** Classifies `RATE_LIMIT_HOURLY` (exponential backoff / 1-hour wait) vs `RATE_LIMIT_DAILY` (pause until 00:00 UTC rollover).
+  4. **Adapter Test Suite:** Verified via 5 dedicated unit tests in `tests/test_copilot_cli_adapter.py`. Full test suite: 583 tests passing.
+
+### 4.2 Brainstorm & Customization State Sync Governance
+- **Commit Anchor:** [`cb800f6`](https://github.com/AaradhyaDT/brainstorm/commit/cb800f6)
+- **Antigravity Control Plane Extensions:** Documented and integrated protobuf-validated keys in `mcp_config.json` (`timeoutSeconds`, `mcpMaxOutputBytes`, `forceAllToolsEager`, `enabledTools`, `disabledTools`) within `customization-state-sync`.
+- **Ecosystem Registry:** Registered `rea` as Ecosystem Module 29 (`schemas/ecosystem.registry.json`) with formal capability contract (`schemas/capability.contract.v1.json`).
+
