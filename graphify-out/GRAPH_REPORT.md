@@ -1,7 +1,7 @@
 # Graph Report - brainstorm  (2026-10-18)
 
 ## Corpus Check
-- Large corpus: 723 files · ~1,143,739 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
+- Large corpus: 723 files · ~1,143,833 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
 
 ## Summary
 - 7064 nodes · 7933 edges · 630 communities (550 shown, 80 thin omitted)
@@ -2826,7 +2826,7 @@ Cohesion: 0.67
 Nodes (3): description, type, definition_en
 
 ## Knowledge Gaps
-- **90 isolated node(s):** `F:\\Aaradhya-Dev-Tamrakar\\Utility\\md2pdf-desktop\\mcp_server\\server.py`, `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE`, `COMPUTE_GUIDANCE_KAGGLE_GPU`, `METRIC_BACKED_LOR_ELIGIBLE` (+85 more)
+- **90 isolated node(s):** `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE`, `COMPUTE_GUIDANCE_KAGGLE_GPU`, `METRIC_BACKED_LOR_ELIGIBLE`, `PAPER_CO_AUTHORSHIP_PRIORITY` (+85 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 4653 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **80 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -2834,10 +2834,10 @@ Nodes (3): description, type, definition_en
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Agent Rules & Workflow Guidelines — Brainstorm & Ecosystem Orchestration` connect `nepali-ocr-ai.contract.json` to `bei_foundation_sim.py`?**
-  _High betweenness centrality (0.074) - this node is a cross-community bridge._
+  _High betweenness centrality (0.078) - this node is a cross-community bridge._
 - **Are the 23 inferred relationships involving `ValueError` (e.g. with `extract_plot_from_notebook()` and `bdecode()`) actually correct?**
   _`ValueError` has 23 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `F:\\Aaradhya-Dev-Tamrakar\\Utility\\md2pdf-desktop\\mcp_server\\server.py`, `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE` to the rest of the system?**
+- **What connects `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE`, `COMPUTE_GUIDANCE_KAGGLE_GPU` to the rest of the system?**
   _90 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `4. Step-by-Step Implementation Timeline` be split into smaller, more focused modules?**
   _Cohesion score 0.07547169811320754 - nodes in this community are weakly interconnected._
@@ -2849,6 +2849,6 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.0425531914893617 - nodes in this community are weakly interconnected._
 
 ## Graph Freshness
-- **Built at commit:** `cb800f6f952bd9475521917039c8f219604ee32e`
-- **Built timestamp:** `2026-10-18T02:36:20.122294+00:00`
+- **Built at commit:** `31915e4ec5db5372e825593976a540c591dd08ef`
+- **Built timestamp:** `2026-10-18T02:37:16.401922+00:00`
 - **Lineage type:** `ancestor_snapshot`

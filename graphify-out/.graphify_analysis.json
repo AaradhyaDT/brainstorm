@@ -1,6 +1,6 @@
 {
-  "built_at_commit": "cb800f6f952bd9475521917039c8f219604ee32e",
-  "built_timestamp": "2026-10-18T02:36:20.122294+00:00",
+  "built_at_commit": "31915e4ec5db5372e825593976a540c591dd08ef",
+  "built_timestamp": "2026-10-18T02:37:16.401922+00:00",
   "lineage_type": "ancestor_snapshot",
   "communities": {
     "0": [
@@ -9073,7 +9073,7 @@
     {
       "type": "bridge_node",
       "question": "Why does `Agent Rules & Workflow Guidelines — Brainstorm & Ecosystem Orchestration` connect `nepali-ocr-ai.contract.json` to `bei_foundation_sim.py`?",
-      "why": "High betweenness centrality (0.074) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.078) - this node is a cross-community bridge."
     },
     {
       "type": "verify_inferred",
@@ -9082,7 +9082,7 @@
     },
     {
       "type": "isolated_nodes",
-      "question": "What connects `F:\\\\Aaradhya-Dev-Tamrakar\\\\Utility\\\\md2pdf-desktop\\\\mcp_server\\\\server.py`, `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE` to the rest of the system?",
+      "question": "What connects `ARCHITECTURAL_REVIEW_SESSION`, `COHORT_1_QUEST_LEAD_ELIGIBLE`, `COMPUTE_GUIDANCE_KAGGLE_GPU` to the rest of the system?",
       "why": "90 weakly-connected nodes found - possible documentation gaps or missing edges."
     },
     {

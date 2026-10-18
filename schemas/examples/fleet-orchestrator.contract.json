@@ -90,6 +90,32 @@
           "error": { "type": "string" }
         }
       }
+    },
+    {
+      "id": "scan_github_radar",
+      "description": "Scans 4 sensory universe channels (U3 Career, U1/U2 SOTA AI, Codon Stream CP, U0 Ecosystem Health) rotating across 30 GitHub PATs with Thalamic noise filtering.",
+      "category": "computation",
+      "deterministic": true,
+      "side_effects": false,
+      "verification_tier": "empirical_benchmark",
+      "cost_tier": "zero_token_local",
+      "timeout_ms": 30000,
+      "inputs": {
+        "type": "object",
+        "properties": {
+          "channels": { "type": "array", "items": { "type": "string" } },
+          "max_items_per_channel": { "type": "integer", "default": 5 }
+        }
+      },
+      "outputs": {
+        "type": "object",
+        "required": ["success", "items_scanned", "brief_path"],
+        "properties": {
+          "success": { "type": "boolean" },
+          "items_scanned": { "type": "integer" },
+          "brief_path": { "type": "string" }
+        }
+      }
     }
   ]
 }

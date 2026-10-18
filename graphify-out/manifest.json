@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792290979.4830787,
-    "seen": 1792290995.7776752,
-    "ast_hash": "234cc6544c249cf2d1ab8b2883c43bec",
-    "semantic_hash": "234cc6544c249cf2d1ab8b2883c43bec"
+    "mtime": 1792291035.6863308,
+    "seen": 1792291047.6159565,
+    "ast_hash": "acb3c2cd2422c92d27c2868342985ad0",
+    "semantic_hash": "acb3c2cd2422c92d27c2868342985ad0"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -3534,10 +3534,10 @@
     "semantic_hash": "e2802ffff85e1719219c21a181b43e74"
   },
   "schemas/examples/fleet-orchestrator.contract.json": {
-    "mtime": 1791362513.9202602,
-    "seen": 1791362770.6909828,
-    "ast_hash": "124ed84f34314993ddd081bf7db20808",
-    "semantic_hash": "124ed84f34314993ddd081bf7db20808"
+    "mtime": 1792291044.8451555,
+    "seen": 1792291047.615988,
+    "ast_hash": "e33f0bd57c8f8bd077e30ebccbfe22ad",
+    "semantic_hash": "e33f0bd57c8f8bd077e30ebccbfe22ad"
   },
   "research/experiments/EXP-012-COPILOT-MULTI-ACCOUNT-FLEET-ACTIVATION.md": {
     "mtime": 1791370942.4685533,
