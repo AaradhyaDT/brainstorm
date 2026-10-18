@@ -6,10 +6,10 @@
     "semantic_hash": "1f807d3a09fa490b7f5315226b97cf4b"
   },
   "schemas/ecosystem.registry.json": {
-    "mtime": 1792254416.8194792,
-    "seen": 1792254518.7230265,
-    "ast_hash": "3a28a1cbbd7a820d86192fe49ac6559e",
-    "semantic_hash": "3a28a1cbbd7a820d86192fe49ac6559e"
+    "mtime": 1792290964.1809523,
+    "seen": 1792290995.7776845,
+    "ast_hash": "6b406f9749aed4bd29b49a2ff6a66f09",
+    "semantic_hash": "6b406f9749aed4bd29b49a2ff6a66f09"
   },
   "schemas/examples/AI-Constraint-Solver.contract.json": {
     "mtime": 1790044861.17107,
@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792254505.2672296,
-    "seen": 1792254518.7230127,
-    "ast_hash": "d99b291c751410df1113d02386946083",
-    "semantic_hash": "d99b291c751410df1113d02386946083"
+    "mtime": 1792290979.4830787,
+    "seen": 1792290995.7776752,
+    "ast_hash": "234cc6544c249cf2d1ab8b2883c43bec",
+    "semantic_hash": "234cc6544c249cf2d1ab8b2883c43bec"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -3588,10 +3588,10 @@
     "semantic_hash": "960a2767d3c22c499e6f9a6517db7130"
   },
   "tools/skills/fleet-orchestrator/SKILL.md": {
-    "mtime": 1791557730.0926397,
-    "seen": 1791557867.591841,
-    "ast_hash": "2ea3250e553c0ec1b4e3210edfab5ff4",
-    "semantic_hash": "2ea3250e553c0ec1b4e3210edfab5ff4"
+    "mtime": 1792290906.9569614,
+    "seen": 1792290995.7785282,
+    "ast_hash": "1d428829735cf2efb1d3eb62052409db",
+    "semantic_hash": "1d428829735cf2efb1d3eb62052409db"
   },
   "tools/skills/fleet-orchestrator/references/sku_dag_reference.md": {
     "mtime": 1791467838.9468732,
@@ -3600,10 +3600,10 @@
     "semantic_hash": "91cd20b8a566918b69f7013e94a67875"
   },
   "tools/skills/fleet-orchestrator/references/worker_architecture.md": {
-    "mtime": 1791467842.3669753,
-    "seen": 1791469422.3147852,
-    "ast_hash": "94508e883b16f662c33e499372f0474c",
-    "semantic_hash": "94508e883b16f662c33e499372f0474c"
+    "mtime": 1792290883.852189,
+    "seen": 1792290995.7785325,
+    "ast_hash": "a44047f6f349d9ad5eadb7f82e61fff3",
+    "semantic_hash": "a44047f6f349d9ad5eadb7f82e61fff3"
   },
   "schemas/examples/disability-id-card.civic.json": {
     "mtime": 1791469858.459476,
