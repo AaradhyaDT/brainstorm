@@ -149,7 +149,13 @@ Speculative text is never ground truth; deterministic execution is. Before final
 - **Zero-Waste Execution**: Be concise, rigorous, and dive straight to work. Avoid conversational filler.
 - **The Task Belongs to the Orchestrator, Not the Worker**: As established in the Worker Session Runtime (`FLEET-001`), workers are ephemeral execution agents; task state, memory checkpoints, and invariants remain permanently externalized in the repository.
 - **Contract Adherence**: Any new capability module or tool must provide a contract matching [`schemas/capability.contract.v1.json`](schemas/capability.contract.v1.json) and be cataloged in [`schemas/ecosystem.registry.json`](schemas/ecosystem.registry.json).
+- **Background Task & Subprocess Governance (`background-task-governance`)**:
+  - Automatically enforce the [`background-task-governance`](file:///C:/Users/Aaradhya/.gemini/config/skills/background-task-governance/SKILL.md) skill to prevent hung processes, freezes, or blocked subprocesses on Windows.
+  - Never invoke interactive CLI commands headlessly without non-interactive flags; never run commands requiring elevated UAC in headless subprocesses.
+  - Write multi-pipe or complex PowerShell logic to `.ps1` files in the scratch directory rather than inline command strings.
+  - Proactively monitor background task health and immediately kill deadlocked processes exceeding 60s without progress.
 - **Autonomous Swarms & Teamwork (`/teamwork-preview`)**: Whenever the `/teamwork-preview` slash command, `teamwork_preview` subagent, or any multi-agent swarm is invoked, the agent **MUST automatically activate and apply the `agent-teams-orchestration` skill** (`C:\Users\Aaradhya\.gemini\config\skills\agent-teams-orchestration\SKILL.md`). All teamwork prompt drafting (`prompt_draft.md`) must strictly enforce Scout-Reviewer-Writer-Lead role separation, file/branch concurrency isolation, bounded stopping criteria, and Obsidian knowledge graph compilation.
+
 
 ---
 

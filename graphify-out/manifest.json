@@ -192,10 +192,10 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1792062324.9462883,
-    "seen": 1792062354.607988,
-    "ast_hash": "8cfc5a324b84aa01505e96cf4427cb03",
-    "semantic_hash": "8cfc5a324b84aa01505e96cf4427cb03"
+    "mtime": 1792333767.5885866,
+    "seen": 1792333831.0991178,
+    "ast_hash": "07f969eb920b2cec0f7d9ed67e8e3a55",
+    "semantic_hash": "07f969eb920b2cec0f7d9ed67e8e3a55"
   },
   "report/economic-model.md": {
     "mtime": 1790234914.4392133,
@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792291179.8353794,
-    "seen": 1792291189.7955294,
-    "ast_hash": "95938a9cf5b8d8c84749e44565f29854",
-    "semantic_hash": "95938a9cf5b8d8c84749e44565f29854"
+    "mtime": 1792333822.544345,
+    "seen": 1792333831.0989661,
+    "ast_hash": "dc8cdc0dd358f3f517e3e9fac1870f6e",
+    "semantic_hash": "dc8cdc0dd358f3f517e3e9fac1870f6e"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
