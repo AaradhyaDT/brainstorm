@@ -8,6 +8,14 @@ import subprocess
 import shutil
 from datetime import datetime
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
+
 try:
     from bs4 import BeautifulSoup
 except ImportError:
@@ -207,12 +215,55 @@ def parse_gemini_share(url: str):
 
     return title, turns
 
+def is_antigravity_target(url_or_id: str) -> bool:
+    """Checks whether the input is an Antigravity brain conversation identifier or path."""
+    cleaned = url_or_id.strip()
+    if cleaned.lower().startswith(("agy:", "brain:")):
+        return True
+    uuid_pattern = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
+    if uuid_pattern.match(cleaned):
+        return True
+    brain_dir = os.path.join(os.path.expanduser("~"), ".gemini", "antigravity", "brain")
+    if os.path.isdir(os.path.join(brain_dir, cleaned)):
+        return True
+    if os.path.isdir(brain_dir) and len(cleaned) >= 6 and not cleaned.startswith("http"):
+        matches = [d for d in os.listdir(brain_dir) if d.lower().startswith(cleaned.lower())]
+        if len(matches) == 1:
+            return True
+    return False
+
+def parse_antigravity_share(target: str):
+    """Loads and formats turns from an Antigravity brain session transcript."""
+    try:
+        from read_chat import resolve_conversation_path, ConversationTranscript
+    except ImportError:
+        # Fallback to local import if in same directory or Scripts
+        tool_dir = os.path.dirname(os.path.abspath(__file__))
+        if tool_dir not in sys.path:
+            sys.path.insert(0, tool_dir)
+        from read_chat import resolve_conversation_path, ConversationTranscript
+
+    target_id = re.sub(r"^(agy|brain):", "", target.strip(), flags=re.I)
+    conv_dir = resolve_conversation_path(target_id)
+    transcript = ConversationTranscript(conv_dir)
+    summary = transcript.get_summary()
+    title = f"Antigravity Session: {summary['title']}"
+    turns = []
+    for t in transcript.get_turns():
+        if t.get("user_text"):
+            turns.append({"role": "User", "text": t["user_text"]})
+        if t.get("assistant_text"):
+            turns.append({"role": "Assistant", "text": t["assistant_text"]})
+    return title, turns
+
 def dispatch_share_parser(url: str):
     """Detects provider and delegates to the appropriate conversation extractor."""
     lower_url = url.lower()
-    if 'gemini.google' in lower_url or 'share.gemini' in lower_url or 'bard.google' in lower_url:
+    if is_antigravity_target(url):
+        return parse_antigravity_share(url)
+    elif "gemini.google" in lower_url or "share.gemini" in lower_url or "bard.google" in lower_url:
         return parse_gemini_share(url)
-    elif 'chatgpt.com' in lower_url or 'openai.com' in lower_url:
+    elif "chatgpt.com" in lower_url or "openai.com" in lower_url:
         return parse_chatgpt_share(url)
     else:
         # Default fallback: try ChatGPT format first, then Gemini format
@@ -220,6 +271,7 @@ def dispatch_share_parser(url: str):
             return parse_chatgpt_share(url)
         except Exception:
             return parse_gemini_share(url)
+
 
 def slugify(value: str) -> str:
     value = re.sub(r'[^\w\s-]', '', value).strip().lower()

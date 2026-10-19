@@ -6,10 +6,10 @@
     "semantic_hash": "1f807d3a09fa490b7f5315226b97cf4b"
   },
   "schemas/ecosystem.registry.json": {
-    "mtime": 1792290964.1809523,
-    "seen": 1792290995.7776845,
-    "ast_hash": "6b406f9749aed4bd29b49a2ff6a66f09",
-    "semantic_hash": "6b406f9749aed4bd29b49a2ff6a66f09"
+    "mtime": 1792391018.3584585,
+    "seen": 1792391051.7239485,
+    "ast_hash": "bca0011a39bf94dd36e61cdde9000780",
+    "semantic_hash": "bca0011a39bf94dd36e61cdde9000780"
   },
   "schemas/examples/AI-Constraint-Solver.contract.json": {
     "mtime": 1790044861.17107,
@@ -246,10 +246,10 @@
     "semantic_hash": "8494bcabb373ee53c92fd9ace6572274"
   },
   "tools/chat_archiver/save_chat.py": {
-    "mtime": 1792069651.4196975,
-    "seen": 1792070545.5370297,
-    "ast_hash": "5fd377a6bbeff835e68c650f745c1c8d",
-    "semantic_hash": "5fd377a6bbeff835e68c650f745c1c8d"
+    "mtime": 1792390913.2258263,
+    "seen": 1792391051.7241793,
+    "ast_hash": "80b056c531677ed720eadb3ba22b5e0a",
+    "semantic_hash": "80b056c531677ed720eadb3ba22b5e0a"
   },
   "AARADHYA_MASTER_v165.md": {
     "mtime": 1791533089.2596042,
@@ -270,10 +270,10 @@
     "semantic_hash": ""
   },
   "tools/chat_archiver/SKILL.md": {
-    "mtime": 1789496270.2217042,
-    "seen": 1790599964.490187,
-    "ast_hash": "8c74810cf3e998121d4b2f7d8433b5d8",
-    "semantic_hash": "8c74810cf3e998121d4b2f7d8433b5d8"
+    "mtime": 1792390974.9887407,
+    "seen": 1792391051.7246497,
+    "ast_hash": "916c7bfc80a77785e0f18c8f928aa578",
+    "semantic_hash": "916c7bfc80a77785e0f18c8f928aa578"
   },
   "drive-manifest.json": {
     "mtime": 1792064985.780219,
@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792333822.544345,
-    "seen": 1792333831.0989661,
-    "ast_hash": "dc8cdc0dd358f3f517e3e9fac1870f6e",
-    "semantic_hash": "dc8cdc0dd358f3f517e3e9fac1870f6e"
+    "mtime": 1792391036.6785216,
+    "seen": 1792391051.723935,
+    "ast_hash": "b2cdf21f0e59c0c737629faca4839067",
+    "semantic_hash": "b2cdf21f0e59c0c737629faca4839067"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -4306,5 +4306,11 @@
     "seen": 1792291189.7957404,
     "ast_hash": "82fc1288b57c6cb5ceed057e18546a6a",
     "semantic_hash": "82fc1288b57c6cb5ceed057e18546a6a"
+  },
+  "tools/chat_archiver/read_chat.py": {
+    "mtime": 1792390797.4475615,
+    "seen": 1792391051.7241764,
+    "ast_hash": "7723925d9da0fc8cc9c771cc8c9fa326",
+    "semantic_hash": "7723925d9da0fc8cc9c771cc8c9fa326"
   }
 }
