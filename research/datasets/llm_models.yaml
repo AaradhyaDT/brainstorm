@@ -1,14 +1,14 @@
 version: 2.0.0
-last_updated: '2026-10-15'
+last_updated: '2026-10-19'
 schema_version: dataset.llm.v2
 author: Aaradhya Dev Tamrakar
 repository: brainstorm/research/datasets
 purpose: Authoritative 2026 Realtime LLM Dataset, Benchmarking & Dynamic MoE Routing
   Matrix
-total_models: 91
+total_models: 92
 tiers_summary:
   frontier_proprietary: 68
-  open_weight_frontier: 17
+  open_weight_frontier: 18
   small_edge: 5
   moe_reference: 1
 models:
@@ -545,9 +545,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.75
-    output_per_m: 3.75
-    cached_input_per_m: 0.075
+    input_per_m: 0.825
+    output_per_m: 4.125
+    cached_input_per_m: 0.0825
     batch_input_per_m: 0.1
     batch_output_per_m: 0.4
     free_tier: true
@@ -711,9 +711,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.45
-    output_per_m: 15.0
-    cached_input_per_m: 0.28
+    input_per_m: 0.239
+    output_per_m: 11.936
+    cached_input_per_m: 0.21
     batch_input_per_m: 0.5
     batch_output_per_m: 1.5
     free_tier: false
@@ -967,9 +967,9 @@ models:
     ollama_tag: deepseek-v4-1-flash:latest
     huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash
   pricing:
-    input_per_m: 0.0238
-    output_per_m: 0.72
-    cached_input_per_m: 0.0054
+    input_per_m: 0.0456
+    output_per_m: 0.08
+    cached_input_per_m: 0.0016
     batch_input_per_m: 0.075
     batch_output_per_m: 0.15
     free_tier: false
@@ -1297,9 +1297,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.03
-    output_per_m: 4.8
-    cached_input_per_m: 0.029
+    input_per_m: 0.079
+    output_per_m: 1.4
+    cached_input_per_m: 0.078
     batch_input_per_m: 0.4
     batch_output_per_m: 1.2
     free_tier: false
@@ -2737,9 +2737,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.016
-    output_per_m: 0.64
-    cached_input_per_m: 0.016
+    input_per_m: 0.15
+    output_per_m: 0.15
+    cached_input_per_m: 0.042
     batch_input_per_m: 0.008
     batch_output_per_m: 0.32
     free_tier: false
@@ -6504,3 +6504,70 @@ models:
     instruction_drift_threshold_k: 133
     cache_discount_pct: 90
     cognitive_council_role: The Systems & Code Craftsman
+- id: deepseek-v4-1-flash-1017
+  name: 'DeepSeek: DeepSeek V4.1 Flash 1017'
+  provider: DeepSeek
+  family: DeepSeek
+  tier: open_weight_frontier
+  release_date: '2026-10-19'
+  architecture:
+    type: moe
+    total_params_b: null
+    active_params_b: null
+    num_experts: null
+    top_k_experts: null
+    context_window: 1048576
+    output_limit: 32000
+    training_cutoff: 2026-06
+  access:
+    license: apache-2.0
+    open_weights: true
+    api_available: true
+    local_runnable: false
+    vram_fp16_gb: null
+    vram_q4_gb: null
+    quantization_formats: []
+    ollama_tag: null
+    huggingface_id: null
+  pricing:
+    input_per_m: 0.3
+    output_per_m: 1.2
+    cached_input_per_m: 0.006
+    batch_input_per_m: 0.15
+    batch_output_per_m: 0.6
+    free_tier: false
+    notes: Auto-ingested from live OpenRouter telemetry (deepseek-v4-1-flash-1017)
+  benchmarks:
+    swe_bench_verified: null
+    aider_polyglot: null
+    gpqa_diamond: null
+    math_500: null
+    mmlu_pro: null
+    arena_elo: null
+    arc_agi: null
+    humaneval_plus: null
+  capabilities:
+    extended_thinking: false
+    tool_use: true
+    vision: true
+    audio_input: false
+    video_input: false
+    computer_use: false
+    code_execution: false
+    structured_output: true
+    streaming: true
+  routing_profile:
+    complexity_range:
+    - 2
+    - 6
+    best_domains:
+    - multi_turn_instruction_following
+    - massive_context_synthesis
+    - multi_document_distillation
+    avoid_domains: []
+    cascade_role: tier_1_worker
+    latency_tier: fast
+    tool_calling_reliability: 0.94
+    instruction_drift_threshold_k: 699
+    cache_discount_pct: 50
+    cognitive_council_role: The Synthesizer & Living Repository
