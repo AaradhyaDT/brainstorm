@@ -1,5 +1,5 @@
 version: 2.0.0
-last_updated: '2026-10-18'
+last_updated: '2026-10-19'
 schema_version: dataset.llm.v2
 author: Aaradhya Dev Tamrakar
 repository: brainstorm/research/datasets
@@ -711,7 +711,7 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.304
+    input_per_m: 0.239
     output_per_m: 11.936
     cached_input_per_m: 0.21
     batch_input_per_m: 0.5
@@ -880,9 +880,9 @@ models:
     ollama_tag: deepseek-v4-pro:latest
     huggingface_id: deepseek-ai/DeepSeek-V4-Pro
   pricing:
-    input_per_m: 0.2088
-    output_per_m: 0.4176
-    cached_input_per_m: 0.0174
+    input_per_m: 0.9553
+    output_per_m: 1.9105
+    cached_input_per_m: 0.0796
     batch_input_per_m: 0.25
     batch_output_per_m: 0.75
     free_tier: false
@@ -968,7 +968,7 @@ models:
     huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash
   pricing:
     input_per_m: 0.0648
-    output_per_m: 0.144
+    output_per_m: 0.08
     cached_input_per_m: 0.0016
     batch_input_per_m: 0.075
     batch_output_per_m: 0.15
@@ -1298,7 +1298,7 @@ models:
     huggingface_id: null
   pricing:
     input_per_m: 0.079
-    output_per_m: 4.8
+    output_per_m: 1.4
     cached_input_per_m: 0.078
     batch_input_per_m: 0.4
     batch_output_per_m: 1.2
@@ -2737,9 +2737,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.1
-    output_per_m: 0.3
-    cached_input_per_m: 0.03
+    input_per_m: 0.15
+    output_per_m: 0.15
+    cached_input_per_m: 0.042
     batch_input_per_m: 0.008
     batch_output_per_m: 0.32
     free_tier: false
@@ -6530,9 +6530,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.15
-    output_per_m: 0.6
-    cached_input_per_m: 0.003
+    input_per_m: 0.3
+    output_per_m: 1.2
+    cached_input_per_m: 0.006
     batch_input_per_m: 0.075
     batch_output_per_m: 0.3
     free_tier: false
