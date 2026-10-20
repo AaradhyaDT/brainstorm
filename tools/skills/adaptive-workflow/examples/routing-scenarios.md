@@ -106,16 +106,16 @@ This document contains end-to-end walkthroughs demonstrating how `adaptive-workf
 
 ---
 
-## Scenario 7: Drafting an Engineering Release Dossier (`writing-like-claude`)
+## Scenario 7: Drafting an Engineering Release Dossier (`calm-authority-writing`)
 
 **User Objective**: Draft a formal model launch report with Pareto frontiers and benchmark grids.
 
 1. **Stage 1 (Scope)**: Classified as `RESEARCH_ACADEMIC`, Tier L4 (Model Launch Dossier, 2,000–5,000 words).
-2. **Stage 2 (Route)**: Routed to `writing-like-claude`, `references/calm-authority-writing.md`.
+2. **Stage 2 (Route)**: Routed to `calm-authority-writing`, `references/calm-authority-writing.md`.
 3. **Stage 3 (Plan)**: Structured with factual-state title, 1-sentence thesis, pinned benchmark comparison table, and explicit non-goals.
 4. **Stage 4 (Verify)**: Audit against calm authority invariants:
    ```powershell
-   python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\writing-like-claude\scripts\audit_calm_writing.py" --tier L4 dossier.md
+   python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\calm-authority-writing\scripts\audit_calm_writing.py" --tier L4 dossier.md
    ```
    Certified 0 banned marketing hype words, valid benchmark grid, and non-goals presence.
 5. **Stage 5 (Sync)**: Synchronize report into repository with `-SkipCI`.
@@ -169,7 +169,7 @@ This document contains end-to-end walkthroughs demonstrating how `adaptive-workf
 **User Objective**: Scaffold an IEEE-compliant engineering thesis report and 16:9 Beamer defense deck for an edge AI project, draft chapters under CPM DAG firebreaks, audit calm-authority writing and $n \ge 30$ sample size invariants, and compile clean PDFs.
 
 1. **Stage 1 (Scope)**: Classified as `RESEARCH_ACADEMIC`, Tier 2 (Multi-Step).
-2. **Stage 2 (Route)**: Routed to `latex-thesis-architect`, `writing-like-claude`, `pm-workflow-orchestrator`.
+2. **Stage 2 (Route)**: Routed to `latex-thesis-architect`, `calm-authority-writing`, `pm-workflow-orchestrator`.
 3. **Stage 3 (Plan)**:
    - Execute Zero-AI scaffolding:
      ```powershell

@@ -11,7 +11,7 @@
     {
       "stage": "draft_calm_dossier",
       "worker_type": "copilot_headless",
-      "task_action": "Draft Tier L4 model release report and Tier L5 system card sections adhering strictly to writing-like-claude 10 Invariants."
+      "task_action": "Draft Tier L4 model release report and Tier L5 system card sections adhering strictly to calm-authority-writing 10 Invariants."
     },
     {
       "stage": "adversarial_audit",

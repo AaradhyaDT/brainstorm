@@ -1,6 +1,6 @@
 # Adaptive Depth Guide: Calibrating Tiers L1 Through L5
 
-This guide defines the structural mechanics, word count constraints, required sections, and artifact requirements across the 5 Depth Tiers of the `writing-like-claude` engine.
+This guide defines the structural mechanics, word count constraints, required sections, and artifact requirements across the 5 Depth Tiers of the `calm-authority-writing` engine.
 
 ---
 

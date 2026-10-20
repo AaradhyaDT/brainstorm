@@ -6,7 +6,7 @@ version: 1.2.0
 
 # LaTeX Thesis & Presentation Architect — Calm-Authority Academic Standard
 
-This skill fuses **Anthropic Calm Authority** (`writing-like-claude`) with **CPM Orchestration & Context Firebreaks** (`adaptive-workflow`) to architect, draft, audit, and compile formal IEEE-compliant engineering thesis reports, project proposals, and Beamer defense presentations.
+This skill fuses **Anthropic Calm Authority** (`calm-authority-writing`) with **CPM Orchestration & Context Firebreaks** (`adaptive-workflow`) to architect, draft, audit, and compile formal IEEE-compliant engineering thesis reports, project proposals, and Beamer defense presentations.
 
 It natively incorporates two production-ready, pure-format open-source templates:
 1. **Academic Engineering Report Template**: [`latex-engineering-report-template`](https://github.com/Aaradhya-Dev-Tamrakar/latex-engineering-report-template) (`engineering-report.cls`)

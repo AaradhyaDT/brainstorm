@@ -70,9 +70,9 @@ Audit markdown documents against calm authority invariants and regex patterns us
 
 ```powershell
 # Audit a single file enforcing a specific depth tier
-python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\writing-like-claude\scripts\audit_calm_writing.py" --tier L1 <path-to-file.md>
+python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\calm-authority-writing\scripts\audit_calm_writing.py" --tier L1 <path-to-file.md>
 
 # Batch audit all markdown files in a directory
-python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\writing-like-claude\scripts\audit_calm_writing.py" --all <path-to-dir>
+python "F:\Aaradhya-Dev-Tamrakar\brainstorm\.agents\skills\calm-authority-writing\scripts\audit_calm_writing.py" --all <path-to-dir>
 ```
 *Note: Code blocks, inline backticks, and markdown table definitions are stripped before prose scanning to prevent false-positive self-violations in reference guides.*

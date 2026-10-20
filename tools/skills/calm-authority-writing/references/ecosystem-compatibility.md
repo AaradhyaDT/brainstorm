@@ -1,12 +1,12 @@
 # Ecosystem Compatibility & Cross-Skill Integration SOP
 
-This reference defines the Standard Operating Procedures (SOP) for integrating `writing-like-claude` with the specialized presentation, versioning, knowledge, and swarm engines across Aaradhya's ecosystem.
+This reference defines the Standard Operating Procedures (SOP) for integrating `calm-authority-writing` with the specialized presentation, versioning, knowledge, and swarm engines across Aaradhya's ecosystem.
 
 ---
 
 ## 1. Integration with `compliance-report-harmonizer`
 
-When authoring formal demographic fairness or regulatory audit dossiers (Tier L5), `writing-like-claude` provides the semantic content and empirical rigor, while `compliance-report-harmonizer` provides the offline HTML/PDF print rendering.
+When authoring formal demographic fairness or regulatory audit dossiers (Tier L5), `calm-authority-writing` provides the semantic content and empirical rigor, while `compliance-report-harmonizer` provides the offline HTML/PDF print rendering.
 
 ### Compatibility Requirements:
 1. **The 5-Section Structural Hierarchy**:
@@ -34,7 +34,7 @@ When registering new tools or builds in the portfolio website (`AaradhyaDT.githu
      - Bullet 2: Key architectural mechanism (e.g. protocol, schema, solver, framework).
      - Bullet 3: Verifiable empirical metric or concrete capability (e.g. latency, accuracy, integration).
 2. **Zero Hype**:
-   - Completely eliminate words like *innovative*, *cutting-edge*, *seamless*.
+   - Completely eliminate marketing superlatives and vague buzzwords.
 
 ---
 
@@ -61,9 +61,9 @@ When authoring research dossiers or study guides destined for Google NotebookLM:
 ### Compatibility Requirements:
 1. **Machine-Readable Metadata**:
    - Include valid `schema.org` JSON-LD in the frontmatter or header.
-2. **KaTeX & KaTeX Math Notation**:
+2. **LaTeX Math Notation**:
    - Write math strictly inside inline `$...$` or display `$$...$$` blocks.
-   - Literal dollar signs must be escaped as `\$`.
+   - Literal dollar signs must be escaped as `\$`. Include spaces before physical units (`200 Hz`, `0.5 mm`).
 3. **Primary Notebook ID Grounding**:
    - Reference established ecosystem notebook IDs where appropriate:
      - Personal Notebook: `95a79d26-2f87-42cd-8cb9-8361a1e56059`

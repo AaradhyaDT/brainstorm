@@ -1,6 +1,6 @@
 # Calm Authority Academic Writing Guide
 
-This reference adapts the **Anthropic Calm Authority Standard** (`writing-like-claude`) specifically for academic engineering thesis reports, fellowship capstones, and formal technical monographs.
+This reference adapts the **Anthropic Calm Authority Standard** (`calm-authority-writing`) specifically for academic engineering thesis reports, fellowship capstones, and formal technical monographs.
 
 ---
 

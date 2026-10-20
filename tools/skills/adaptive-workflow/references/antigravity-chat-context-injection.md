@@ -74,7 +74,7 @@ Task payloads enqueued to `orchestrator-state/tasks/<task_id>.json` incorporate 
       ],
       "active_skills": [
         "adaptive-workflow",
-        "writing-like-claude",
+        "calm-authority-writing",
         "github-workflow",
         "systems-concurrency-harness"
       ],

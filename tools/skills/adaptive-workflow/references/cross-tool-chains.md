@@ -55,7 +55,7 @@ Bridges edge sensor models, demographic bias auditing, publication-grade PDF com
 flowchart LR
     EdgeModel["SPARK\n(Edge sensor kinematics)"] --> BiasAudit["BiasAperture\n(Demographic parity audit)"]
     BiasAudit --> PDF["md2pdf-desktop\n(FastMCP / LaTeX render)"]
-    PDF --> Writing["writing-like-claude\n(Tier L4 report / L1 blurb)"]
+    PDF --> Writing["calm-authority-writing\n(Tier L4 report / L1 blurb)"]
     Writing --> Portfolio["portfolio-project-manager\n(AaradhyaDT.github.io)"]
 ```
 
