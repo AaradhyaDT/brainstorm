@@ -1,5 +1,5 @@
 version: 2.0.0
-last_updated: '2026-10-19'
+last_updated: '2026-10-20'
 schema_version: dataset.llm.v2
 author: Aaradhya Dev Tamrakar
 repository: brainstorm/research/datasets
@@ -967,8 +967,8 @@ models:
     ollama_tag: deepseek-v4-1-flash:latest
     huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash
   pricing:
-    input_per_m: 0.0648
-    output_per_m: 0.08
+    input_per_m: 0.0352
+    output_per_m: 0.0112
     cached_input_per_m: 0.0016
     batch_input_per_m: 0.075
     batch_output_per_m: 0.15
@@ -1546,8 +1546,8 @@ models:
     ollama_tag: qwen3.6:35b-a3b
     huggingface_id: Qwen/Qwen3.6-35B-A3B
   pricing:
-    input_per_m: 0.15
-    output_per_m: 1.0
+    input_per_m: 0.1
+    output_per_m: 0.95
     cached_input_per_m: 0.05
     batch_input_per_m: 0.1
     batch_output_per_m: 0.2
@@ -2737,9 +2737,9 @@ models:
     ollama_tag: null
     huggingface_id: null
   pricing:
-    input_per_m: 0.15
-    output_per_m: 0.15
-    cached_input_per_m: 0.042
+    input_per_m: 0.44
+    output_per_m: 1.32
+    cached_input_per_m: 0.014
     batch_input_per_m: 0.008
     batch_output_per_m: 0.32
     free_tier: false
