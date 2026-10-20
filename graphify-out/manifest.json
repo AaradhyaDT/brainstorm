@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792481544.6650424,
-    "seen": 1792481558.480516,
-    "ast_hash": "e1df47fd495717e5e7259176a6f00a00",
-    "semantic_hash": "e1df47fd495717e5e7259176a6f00a00"
+    "mtime": 1792484004.7246404,
+    "seen": 1792484013.8758683,
+    "ast_hash": "6998dcd80ee0ac7f8dbfe9967895d5fe",
+    "semantic_hash": "6998dcd80ee0ac7f8dbfe9967895d5fe"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -4426,5 +4426,47 @@
     "seen": 1792481558.4810762,
     "ast_hash": "c1ea5b61e6b2928e14d5ba68f0455154",
     "semantic_hash": "c1ea5b61e6b2928e14d5ba68f0455154"
+  },
+  "research/incubator/RFC_20261020_131728_i_am_thinking_of_upgrading_the_copilot_c.md": {
+    "mtime": 1792481560.3019147,
+    "seen": 1792484013.876177,
+    "ast_hash": "8f47340191e177cd144dbdbb33222b20",
+    "semantic_hash": "8f47340191e177cd144dbdbb33222b20"
+  },
+  "research/incubator/RFC_20261020_134908_i_am_wondering_what_help_a100_high_ram_r.md": {
+    "mtime": 1792483451.7793708,
+    "seen": 1792484013.8761787,
+    "ast_hash": "a49f32a87d50b4c69fe52699dc235624",
+    "semantic_hash": "a49f32a87d50b4c69fe52699dc235624"
+  },
+  "research/incubator/RFC_20261020_134917_i_am_wondering_what_help_a100_high_ram_r.md": {
+    "mtime": 1792483460.7116816,
+    "seen": 1792484013.87618,
+    "ast_hash": "2da0bd760d9b32e5537408df7f05f569",
+    "semantic_hash": "2da0bd760d9b32e5537408df7f05f569"
+  },
+  "research/incubator/RFC_20261020_135335_test_tiered_pipeline_this_is_a_quick_san.md": {
+    "mtime": 1792483717.8990698,
+    "seen": 1792484013.876181,
+    "ast_hash": "2461c4f10657454b6bfe8225a95dcb0f",
+    "semantic_hash": "2461c4f10657454b6bfe8225a95dcb0f"
+  },
+  "research/incubator/RFC_20261020_135555_i_am_thinking_of_upgrading_the_problem_d.md": {
+    "mtime": 1792483859.637411,
+    "seen": 1792484013.876182,
+    "ast_hash": "f0e22236058f3b720f36d214626f9a5f",
+    "semantic_hash": "f0e22236058f3b720f36d214626f9a5f"
+  },
+  "research/incubator/RFC_20261020_135602_test_kalman_filter_integration.md": {
+    "mtime": 1792483866.2239082,
+    "seen": 1792484013.876183,
+    "ast_hash": "edea68d2610c3d927efc97f574dc58f0",
+    "semantic_hash": "edea68d2610c3d927efc97f574dc58f0"
+  },
+  "research/incubator/RFC_20261020_135603_map_itu_ai_timeline.md": {
+    "mtime": 1792483867.0555193,
+    "seen": 1792484013.8761837,
+    "ast_hash": "261938f50f64fb79889de58f8e0b0861",
+    "semantic_hash": "261938f50f64fb79889de58f8e0b0861"
   }
 }
