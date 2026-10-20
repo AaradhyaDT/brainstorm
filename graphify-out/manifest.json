@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792476324.1756785,
-    "seen": 1792476344.7375426,
-    "ast_hash": "7bad38372a84210ee22657fbde494db5",
-    "semantic_hash": "7bad38372a84210ee22657fbde494db5"
+    "mtime": 1792481544.6650424,
+    "seen": 1792481558.480516,
+    "ast_hash": "e1df47fd495717e5e7259176a6f00a00",
+    "semantic_hash": "e1df47fd495717e5e7259176a6f00a00"
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -4384,5 +4384,47 @@
     "seen": 1792476344.738442,
     "ast_hash": "2ed2f28c0ceda254af3ee8be5eca95fa",
     "semantic_hash": "2ed2f28c0ceda254af3ee8be5eca95fa"
+  },
+  "research/incubator/RFC_20261020_123605.md": {
+    "mtime": 1792479078.953768,
+    "seen": 1792481558.4810658,
+    "ast_hash": "e3936d46b3911d02fd9ef83f84377246",
+    "semantic_hash": "e3936d46b3911d02fd9ef83f84377246"
+  },
+  "research/incubator/RFC_20261020_124347.md": {
+    "mtime": 1792479540.406252,
+    "seen": 1792481558.4810681,
+    "ast_hash": "8bfda91fbccb085ec92e922cf13f1593",
+    "semantic_hash": "8bfda91fbccb085ec92e922cf13f1593"
+  },
+  "research/incubator/RFC_20261020_125951.md": {
+    "mtime": 1792480504.6628568,
+    "seen": 1792481558.4810693,
+    "ast_hash": "112aa04a2c5bfce9313832951e3f3c93",
+    "semantic_hash": "112aa04a2c5bfce9313832951e3f3c93"
+  },
+  "research/incubator/RFC_20261020_131159.md": {
+    "mtime": 1792481233.7138252,
+    "seen": 1792481558.4810705,
+    "ast_hash": "f90b4c75e6fe7c3ff1dd1a75fdb424ee",
+    "semantic_hash": "f90b4c75e6fe7c3ff1dd1a75fdb424ee"
+  },
+  "research/incubator/RFC_20261020_131456.md": {
+    "mtime": 1792481407.2464058,
+    "seen": 1792481558.4810722,
+    "ast_hash": "f60a954858b8af2083661af5fbc1f055",
+    "semantic_hash": "f60a954858b8af2083661af5fbc1f055"
+  },
+  "research/incubator/RFC_20261020_131601_map_itu_ai_timeline.md": {
+    "mtime": 1792481475.2455788,
+    "seen": 1792481558.481074,
+    "ast_hash": "6297f210a95332752b97c751328903cd",
+    "semantic_hash": "6297f210a95332752b97c751328903cd"
+  },
+  "research/incubator/RFC_20261020_131601_test_kalman_filter_integration.md": {
+    "mtime": 1792481475.102502,
+    "seen": 1792481558.4810762,
+    "ast_hash": "c1ea5b61e6b2928e14d5ba68f0455154",
+    "semantic_hash": "c1ea5b61e6b2928e14d5ba68f0455154"
   }
 }
