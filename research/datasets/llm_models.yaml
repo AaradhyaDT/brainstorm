@@ -1,5 +1,5 @@
 version: 2.0.0
-last_updated: '2026-10-20'
+last_updated: '2026-10-21'
 schema_version: dataset.llm.v2
 author: Aaradhya Dev Tamrakar
 repository: brainstorm/research/datasets
@@ -968,8 +968,8 @@ models:
     huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash
   pricing:
     input_per_m: 0.0352
-    output_per_m: 0.0112
-    cached_input_per_m: 0.0016
+    output_per_m: 0.375
+    cached_input_per_m: 0.001
     batch_input_per_m: 0.075
     batch_output_per_m: 0.15
     free_tier: false
