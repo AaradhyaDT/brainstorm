@@ -45,6 +45,7 @@ After inspecting the issue and obtaining authorization for the exact body replac
 PowerShell:
 
 ```powershell
+$ErrorActionPreference = 'Stop'
 $repo = 'OWNER/REPO'
 $number = 123
 $body = @'
