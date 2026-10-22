@@ -7,7 +7,7 @@
 
 ---
 
-## 📊 Complete Master Skills Matrix (Origin & Workflow Usage) (62 Skills)
+## 📊 Complete Master Skills Matrix (Origin & Workflow Usage) (63 Skills)
 
 | Category | Skill Name | Path | Origin | Usage in Workflow Pipeline |
 | :--- | :--- | :--- | :--- | :--- |
@@ -27,6 +27,7 @@
 | | [`find-skills`](find-skills/SKILL.md) | `tools/skills/find-skills/` | Open Agent Skills Ecosystem (`skills` CLI) | **Skill Discovery Phase:** Discovers, searches, and installs community agent skills from GitHub via `npx skills find`. |
 | **Feature Scoping & Git Workflow** | [`feature-dev`](feature-dev/SKILL.md) | `tools/skills/feature-dev/` | Global Antigravity Config | **Scoping & Architecture Phase:** Interactively scopes feature requirements, clarifies ambiguities, and decomposes architecture before writing code. |
 | | [`github-workflow`](github-workflow/SKILL.md) | `tools/skills/github-workflow/` | Brainstorm Ecosystem Standard (`AGENTS.md`) | **Core Release Phase:** Enforces mandatory issue anchoring (`gh issue`), branch isolation (`type/slug-#id`), task checking (`gh-task`), `sync.bat`, and PR dispatch. |
+| | [`gh-api`](gh-api/SKILL.md) | `tools/skills/gh-api/` | Brainstorm issue #45 | **API Operations:** REST and GraphQL discovery, payloads, pagination, authorized mutations, and state verification through GitHub CLI. |
 | | [`github-issue-pr-workflow`](github-issue-pr-workflow/SKILL.md) | `tools/skills/github-issue-pr-workflow/` | Ecosystem GitHub Standard | **Task Tracking Sub-Workflow:** Manages granular issue task checkboxes (`- [ ]`), branch slugging, and metadata cross-linking. |
 | | [`commit-commands`](commit-commands/SKILL.md) | `tools/skills/commit-commands/` | Ecosystem Release Invariants | **Commit Verification Sub-Workflow:** Enforces Conventional Commit formatting, 7-40 hex Git SHA invariants (Category 26 gate), and `sync.bat` execution. |
 | | [`split-to-prs`](split-to-prs/SKILL.md) | `tools/skills/split-to-prs/` | Global Antigravity Config | **Code Review Prep Phase:** Deconstructs large features or refactors into small, atomic, independent pull request sequences for easier review. |

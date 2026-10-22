@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-21T06:47:17.723515+00:00",
-  "evaluated_commit": "c0d819ca3f726ad143dd5ccf2cec378b82032b51",
-  "lineage_type": "head_certified",
-  "provenance_note": "Verified post-push CI ledger certified against exact tested HEAD.",
+  "timestamp": "2026-10-22T16:58:46.534133+05:45",
+  "evaluated_commit": "5acd411ee1d4062f1477ca8bbe9987e4e7d1f1b2",
+  "lineage_type": "ancestor_snapshot",
+  "provenance_note": "Persisted snapshot from pre-commit reconciliation; automated CI generates per-run ledger matching exact tested HEAD.",
   "layer_1_structural_consistency": {
     "status": "PASSED",
     "errors": 0,

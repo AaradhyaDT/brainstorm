@@ -276,10 +276,10 @@
     "semantic_hash": "916c7bfc80a77785e0f18c8f928aa578"
   },
   "drive-manifest.json": {
-    "mtime": 1792064985.780219,
-    "seen": 1792065156.1309686,
-    "ast_hash": "63d26977f8a6f45e88805044902cff35",
-    "semantic_hash": "63d26977f8a6f45e88805044902cff35"
+    "mtime": 1792602808.4860961,
+    "seen": 1792666508.2114995,
+    "ast_hash": "320bcfbb03cd2c4219264f73f3c4db97",
+    "semantic_hash": ""
   },
   "schemas/ecosystem.verification.json": {
     "mtime": 1790044861.1705668,
@@ -342,15 +342,15 @@
     "semantic_hash": "e71b14a0c90bee5de6ec9b18e548fddc"
   },
   ".github/workflows/sync-drive.yml": {
-    "mtime": 1790948387.7136075,
-    "seen": 1790952635.708828,
-    "ast_hash": "d9be0b12d86adc82018857e21693f6ff",
+    "mtime": 1792063406.669827,
+    "seen": 1792666508.2349865,
+    "ast_hash": "84a5d726873798165ec140c1e72696ce",
     "semantic_hash": ""
   },
   ".github/workflows/verification.yml": {
-    "mtime": 1791533802.9094899,
-    "seen": 1791547490.305215,
-    "ast_hash": "f2310f59abc9a7c0fcafdf0d1e9bf35b",
+    "mtime": 1792062241.5548859,
+    "seen": 1792666508.234995,
+    "ast_hash": "c05edb1a01998fb32a609a56afdec758",
     "semantic_hash": ""
   },
   "research/experiments/EXP-DRIVE-SYNC-001.md": {
@@ -504,10 +504,10 @@
     "semantic_hash": "4ec04b8704446dd23c4f5cabfc070d1f"
   },
   "research/results/dual_layer_verification_ledger.json": {
-    "mtime": 1792548137.0310955,
-    "seen": 1792548147.0099247,
-    "ast_hash": "2d0a34d0148f51a78a6d9d02d59d23c3",
-    "semantic_hash": "2d0a34d0148f51a78a6d9d02d59d23c3"
+    "mtime": 1792602808.4890344,
+    "seen": 1792666508.2126133,
+    "ast_hash": "9f130901e6e38f818c256792758a35ff",
+    "semantic_hash": ""
   },
   "research/decisions/DEC-001-MEMORY-STRATIFICATION.md": {
     "mtime": 1790044861.1310956,
@@ -876,10 +876,10 @@
     "semantic_hash": "7d778793512114b09a97e27b0d5c1e65"
   },
   "tools/skills/README.md": {
-    "mtime": 1792408505.983108,
-    "seen": 1792476344.7382429,
-    "ast_hash": "38b4d85b087d7ff5f156bdee3c01ba5b",
-    "semantic_hash": "38b4d85b087d7ff5f156bdee3c01ba5b"
+    "mtime": 1792666446.3807766,
+    "seen": 1792666508.2636306,
+    "ast_hash": "ded2adcb732013d6c9d0a4a6b1cfa876",
+    "semantic_hash": ""
   },
   "tools/skills/agent-teams-orchestration/SKILL.md": {
     "mtime": 1791443948.1802576,
@@ -1614,9 +1614,9 @@
     "semantic_hash": "cfc27f355a865723c06918605915da04"
   },
   "requirements.txt": {
-    "mtime": 1791533006.2037227,
-    "seen": 1791547490.3077433,
-    "ast_hash": "3f01e1b44fdd1ff7c1db2e3fa7a12f59",
+    "mtime": 1791795614.8541553,
+    "seen": 1792666508.2372344,
+    "ast_hash": "194ed47853bb5b9e8662247f0971806a",
     "semantic_hash": ""
   },
   "research/hypotheses/HYP-006-DIRECT-L2-TRANSPORT-PARITY.yaml": {
@@ -2300,8 +2300,8 @@
   ".mcp.json": {
     "mtime": 1791211589.4039154,
     "seen": 1791562552.040422,
-    "ast_hash": "28136d52f8c466fd93e00c713b7fa4f6",
-    "semantic_hash": "28136d52f8c466fd93e00c713b7fa4f6"
+    "ast_hash": "",
+    "semantic_hash": ""
   },
   "tools/skills/bitwarden/SKILL.md": {
     "mtime": 1791211624.794008,
@@ -3624,15 +3624,15 @@
     "semantic_hash": "3ad220c86869965c22f67961903ee38c"
   },
   ".github/workflows/realtime-llm-sync.yml": {
-    "mtime": 1791170147.383922,
-    "seen": 1791526749.5414515,
-    "ast_hash": "32118de1511323fe014d7377b41235af",
+    "mtime": 1792063011.487184,
+    "seen": 1792666508.234981,
+    "ast_hash": "0f4492371d51be797975b57266ca7d36",
     "semantic_hash": ""
   },
   "research/datasets/llm_models.yaml": {
-    "mtime": 1791168069.1586623,
-    "seen": 1791526749.544973,
-    "ast_hash": "e2c247df7dafc9a4339bd3d7d1e0cbc6",
+    "mtime": 1792602808.4885156,
+    "seen": 1792666508.2414613,
+    "ast_hash": "9436b18cf12b62f2f83c7302b1cfb314",
     "semantic_hash": ""
   },
   "research/hypotheses/HYP-009-BILINGUAL-DOMAIN-ONTOLOGY-PARITY.yaml": {
@@ -4486,5 +4486,65 @@
     "seen": 1792548147.0101929,
     "ast_hash": "1d250721b2155f2eb00c9438ae9141e6",
     "semantic_hash": "1d250721b2155f2eb00c9438ae9141e6"
+  },
+  "tools/skills/gh-api/scripts/check-reads.ps1": {
+    "mtime": 1792649866.5278325,
+    "seen": 1792666508.230147,
+    "ast_hash": "1734653a8ae9ee94d686d30ebefe1fd7",
+    "semantic_hash": ""
+  },
+  "tools/skills/gh-api/scripts/check-reads.sh": {
+    "mtime": 1792666446.357721,
+    "seen": 1792666508.2301533,
+    "ast_hash": "c2d706a20a9705ecb0bdf707552a11d9",
+    "semantic_hash": ""
+  },
+  ".github/workflows/sync-fork.yml": {
+    "mtime": 1792063844.7297664,
+    "seen": 1792666508.2349916,
+    "ast_hash": "33134cac13cdedf692298f4d52691dba",
+    "semantic_hash": ""
+  },
+  "tools/skills/gh-api/SKILL.md": {
+    "mtime": 1792666446.3602326,
+    "seen": 1792666508.2878652,
+    "ast_hash": "aec73bab575b8c80e66115514f4fcccb",
+    "semantic_hash": ""
+  },
+  "tools/skills/gh-api/references/examples.md": {
+    "mtime": 1792666446.3597338,
+    "seen": 1792666508.287869,
+    "ast_hash": "6ee4c0fcee66b1b0ac8a807c99a21636",
+    "semantic_hash": ""
+  },
+  "tools/skills/gh-api/references/troubleshooting.md": {
+    "mtime": 1792649866.5268304,
+    "seen": 1792666508.2878733,
+    "ast_hash": "41d74c3a9a2cf1188eaa638764f61d2c",
+    "semantic_hash": ""
+  },
+  "tools/skills/latex-thesis-architect/assets/templates/beamer-presentation/src/images/gantt.png": {
+    "mtime": 1792410643.3540263,
+    "seen": 1792666508.3415413,
+    "ast_hash": "b43c86db3e59e328d16cb2dffabefc46",
+    "semantic_hash": ""
+  },
+  "tools/skills/latex-thesis-architect/assets/templates/beamer-presentation/src/images/logo.png": {
+    "mtime": 1792410643.359526,
+    "seen": 1792666508.3415456,
+    "ast_hash": "38f2afc384322239c2d9174ff6c943bd",
+    "semantic_hash": ""
+  },
+  "tools/skills/latex-thesis-architect/assets/templates/engineering-report/src/images/figures/gantt.png": {
+    "mtime": 1792410643.3610332,
+    "seen": 1792666508.3415484,
+    "ast_hash": "dd237bbb58e1f2dfd970c374074172ce",
+    "semantic_hash": ""
+  },
+  "tools/skills/latex-thesis-architect/assets/templates/engineering-report/src/images/logo.png": {
+    "mtime": 1792410643.3685353,
+    "seen": 1792666508.3415506,
+    "ast_hash": "d0b74cd318ba64649059e575a23c6e9a",
+    "semantic_hash": ""
   }
 }
