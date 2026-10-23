@@ -1,5 +1,5 @@
 version: 2.0.0
-last_updated: '2026-10-22'
+last_updated: '2026-10-23'
 schema_version: dataset.llm.v2
 author: Aaradhya Dev Tamrakar
 repository: brainstorm/research/datasets
@@ -967,8 +967,8 @@ models:
     ollama_tag: deepseek-v4-1-flash:latest
     huggingface_id: deepseek-ai/DeepSeek-V4.1-Flash
   pricing:
-    input_per_m: 0.3
-    output_per_m: 1.2
+    input_per_m: 0.165
+    output_per_m: 0.66
     cached_input_per_m: 0.006
     batch_input_per_m: 0.075
     batch_output_per_m: 0.15
