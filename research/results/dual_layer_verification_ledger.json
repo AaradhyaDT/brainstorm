@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-23T06:57:30.093270+00:00",
-  "evaluated_commit": "baa410456bbda57f66e2440c85987b7fcbf417cd",
+  "timestamp": "2026-10-24T06:52:31.911487+00:00",
+  "evaluated_commit": "59b9a3e689f64f3955ae15a063cb8e4fbb8e669c",
   "lineage_type": "head_certified",
   "provenance_note": "Verified post-push CI ledger certified against exact tested HEAD.",
   "layer_1_structural_consistency": {
